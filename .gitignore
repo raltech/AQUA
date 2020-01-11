@@ -20,3 +20,7 @@ Pipfile
 
 # agent storage
 examples/agents
+
+# virtual environment
+aqua-ve
+aqua-ve/
