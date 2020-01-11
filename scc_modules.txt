@@ -1,0 +1,2 @@
+module load python3/3.7.3
+module load tensorflow/1.13.1
