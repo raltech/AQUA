@@ -2,7 +2,8 @@ from tensorforce.agents import Agent
 from tensorforce.environments import Environment
 
 from tensortrade.environments import TradingEnvironment
-from tensortrade.exchanges.simulated import FBMExchange
+# from tensortrade.exchanges.simulated import FBMExchange
+from tensortrade.exchanges.simulated.simulated_exchange as FBMExchange
 from tensortrade.features.scalers import MinMaxNormalizer
 from tensortrade.features.stationarity import FractionalDifference
 from tensortrade.features import FeaturePipeline
