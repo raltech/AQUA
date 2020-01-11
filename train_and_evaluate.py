@@ -9,7 +9,7 @@ from tensortrade.features.scalers import MinMaxNormalizer
 from tensortrade.features.stationarity import FractionalDifference
 from tensortrade.features import FeaturePipeline
 from tensortrade.rewards import SimpleProfit
-from tensortrade.actions import DiscreteActions
+from tensortrade.actions.discrete_actions import DiscreteActions
 # from tensortrade.actions import DynamicOrders as DiscreteActions
 from tensortrade.strategies import TensorforceTradingStrategy
 
