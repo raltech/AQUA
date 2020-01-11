@@ -24,3 +24,5 @@ examples/agents
 # virtual environment
 aqua-ve
 aqua-ve/
+aqua-virtualenv
+aqua-virtualenv/
