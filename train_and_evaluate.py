@@ -2,14 +2,14 @@ from tensorforce.agents import Agent
 from tensorforce.environments import Environment
 
 from tensortrade.environments import TradingEnvironment
-# from tensortrade.exchanges.simulated import FBMExchange
-from tensortrade.exchanges.simulated import simulated_exchange as FBMExchange
+from tensortrade.exchanges.simulated import FBMExchange
+# from tensortrade.exchanges.simulated import simulated_exchange as FBMExchange
 from tensortrade.features.scalers import MinMaxNormalizer
 from tensortrade.features.stationarity import FractionalDifference
 from tensortrade.features import FeaturePipeline
 from tensortrade.rewards import SimpleProfit
-# from tensortrade.actions import DiscreteActions
-from tensortrade.actions import DynamicOrders as DiscreteActions
+from tensortrade.actions import DiscreteActions
+# from tensortrade.actions import DynamicOrders as DiscreteActions
 from tensortrade.strategies import TensorforceTradingStrategy
 
 normalize = MinMaxNormalizer(inplace=True)
