@@ -61,3 +61,5 @@ strategy = StableBaselinesTradingStrategy(environment=environment,
                                           model_kwargs=params)
 
 strategy.run(steps=10000)
+
+strategy.save_agent(path="agents/test")
