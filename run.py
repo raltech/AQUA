@@ -64,6 +64,6 @@ strategy.restore_agent(path="agents/test")
 
 strategy.run(steps=10000)
 
-strategy.evaluate()
+strategy.evaluate(steps=1000, render_mode="chart")
 
 strategy.save_agent(path="agents/test")
