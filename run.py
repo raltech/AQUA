@@ -17,7 +17,7 @@ from tensortrade.features.stationarity import LogDifference
 from tensortrade.features.scalers import MinMaxNormalizer
 from tensortrade.features import FeaturePipeline
 
-WINDOW_SIZE = 1
+WINDOW_SIZE = 2
 PRICE_COLUMN = 'close'
 
 normalize = MinMaxNormalizer(inplace=True)
